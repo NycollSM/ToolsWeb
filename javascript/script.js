@@ -8,9 +8,10 @@ let btnmodal = document.getElementsByClassName('modal');
          bigdiv.className = 'big';
 
          /**div w/ content and button  */
-         let mediundiv = document.createElement('div');
-         let content = document.createElement('p');
-         p.innerHTML = 'Esto es un modal';
+         let mediumdiv = document.createElement('div');
+         let content = document.createElement('h1');
+         content.className = 'txt-modal';
+         content.innerHTML = 'Esto es un modal';
 
 
          /*button for close div*/
@@ -19,7 +20,7 @@ let btnmodal = document.getElementsByClassName('modal');
          close.innerHTML = 'X';
 
          /** add elements at DOM*/
-         bigdiv.appendChild(mediundiv);
+         bigdiv.appendChild(mediumdiv);
          bigdiv.appendChild(content);
          bigdiv.appendChild(close);
          document.body.appendChild(bigdiv);

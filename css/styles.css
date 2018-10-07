@@ -52,6 +52,13 @@ a {
   background: aqua;
   margin-top: 10px; }
 
+.txt-modal {
+  color: white;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0; }
+
 .big {
   background: #000000c5;
   display: block;
