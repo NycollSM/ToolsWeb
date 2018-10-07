@@ -1,3 +1,4 @@
+//modal
 let btnmodal = document.getElementsByClassName('modal');
  for (let i = 0 ; i < btnmodal.length; i++){
      btnmodal[i].onclick = function(){
